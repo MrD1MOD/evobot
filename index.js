@@ -12,7 +12,7 @@ const client = new Client({
   restTimeOffset: 0
 });
 
-client.login(config.token);
+client.login(config.TOKEN);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
